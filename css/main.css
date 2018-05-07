@@ -1,0 +1,935 @@
+body {
+  color: #3F4747;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  line-height: 1.5em; }
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 2em;
+  line-height: 1.5em; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #158D96;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5em; }
+
+header {
+  height: 100px;
+  width: 80%;
+  margin: 0 auto; }
+
+nav {
+  height: 100%;
+  margin: 0 auto; }
+
+.menu {
+  float: right; }
+
+.logo {
+  float: left; }
+
+#owllogo {
+  height: 70%;
+  width: 70%;
+  padding-top: 20px; }
+
+.name {
+  display: none;
+  float: left;
+  font-family: "Pacifico", cursive; }
+  .name a {
+    text-decoration: none;
+    color: #3F4747; }
+
+.menu ul {
+  float: right; }
+.menu li {
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  float: left; }
+.menu a {
+  color: #3F4747;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+.menu a:hover {
+  color: #ffffff; }
+.menu ul li .active {
+  color: #158d96; }
+
+#hireme {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: -10px; }
+
+#hireme:hover {
+  background-color: #2B9E9B; }
+
+.fixednav {
+  position: fixed;
+  top: 0;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #DAF2F0;
+  height: 60px;
+  padding: 0 200px;
+  float: none; }
+  .fixednav li {
+    padding-top: 20px;
+    float: none;
+    text-align: center; }
+
+.topwrapper {
+  background: -webkit-linear-gradient(#93d1ca, #ffffff);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#93d1ca, #ffffff);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#93d1ca, #ffffff);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#93d1ca, #ffffff);
+  /* Standard syntax */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+
+.headerwrapper {
+  width: 100%;
+  background-color: #DAF2F0; }
+
+.contentcontainer {
+  width: 80%;
+  margin: 0 auto; }
+
+.intro {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  text-align: center; }
+
+#name {
+  font-family: "Pacifico", cursive;
+  font-size: 3em;
+  line-height: 1.5em; }
+
+#title {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 1.3em; }
+
+#headerimage {
+  margin: 0 auto; }
+
+footer {
+  width: 100%;
+  height: 60px;
+  margin: 30px auto 0;
+  background-color: #3F4747;
+  color: #f2f2f2; }
+  footer p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8em;
+    display: inline-block;
+    padding-top: 20px;
+    font-weight: 300; }
+  footer span {
+    font-family: "Pacifico", cursive; }
+
+.socialmedia {
+  float: right; }
+  .socialmedia li {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.5em; }
+  .socialmedia a {
+    color: #f2f2f2; }
+  .socialmedia a:hover {
+    color: #FBB03B; }
+
+hr {
+  width: 30%;
+  height: 6px;
+  margin-top: 50px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0; }
+
+h1.workheader {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 3em; }
+
+.tags {
+  margin-bottom: 20px; }
+  .tags span {
+    display: inline-block;
+    background-color: #7BB1B2;
+    color: #f2f2f2;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px; }
+
+.pulsebandsection {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  width: 80%;
+  margin: auto; }
+
+.pulsebandinfo h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+  padding: 40px;
+  line-height: 1.3em; }
+
+#pulsebandimage img {
+  height: 60%;
+  width: 60%;
+  display: block;
+  margin: 30px auto 0; }
+
+.viewPulseband {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 200px;
+  padding: 15px 20px;
+  margin: 0 auto; }
+
+.viewPulseband:hover {
+  background-color: #2B9E9B; }
+
+.nutritionsearchsection {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  width: 80%;
+  margin: auto; }
+
+.nutritionsearchinfo h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+  padding: 40px;
+  line-height: 1.3em; }
+
+#nutritionSearchImage {
+  padding-top: 50px; }
+  #nutritionSearchImage img {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin: 0 auto; }
+
+.viewNutritionSearch {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 200px;
+  padding: 15px 20px;
+  margin: 0 auto; }
+
+.viewNutritionSearch:hover {
+  background-color: #2B9E9B; }
+
+.playlistgeneratorsection {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  width: 80%;
+  margin: auto; }
+
+.playlistgeneratorinfo h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+  padding: 40px;
+  line-height: 1.3em; }
+
+#playlistimage {
+  padding-top: 50px; }
+  #playlistimage img {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin: 0 auto; }
+
+.viewPlaylistGenerator {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 200px;
+  padding: 15px 20px;
+  margin: 0 auto; }
+
+.viewPlaylistGenerator:hover {
+  background-color: #2B9E9B; }
+
+.learnMoreSection {
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center; }
+
+.learnMore {
+  color: #3F4747;
+  margin: 50px auto;
+  text-align: center;
+  border: solid 1px #daf2f0;
+  border-radius: 50px;
+  font-weight: 700;
+  padding: 50px 100px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5em;
+  text-decoration: none; }
+
+.learnMore:hover {
+  border: solid 3px #daf2f0;
+  color: #8cc63f; }
+
+.about {
+  margin-top: 70px; }
+
+#aboutmetitle {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 2.8em;
+  text-align: center; }
+
+.aboutsection {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto; }
+  .aboutsection h1, .aboutsection h2, .aboutsection p {
+    margin: 30px 0px; }
+
+#portrait {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-left: 60px;
+  margin-top: 60px; }
+
+.maininfo {
+  padding-top: 30px;
+  width: 60%;
+  height: 30px;
+  float: right; }
+  .maininfo p {
+    font-size: 1.5em;
+    line-height: 1.3em; }
+  .maininfo span {
+    font-weight: 700; }
+
+.scienceinfo {
+  width: 60%;
+  height: 30px;
+  float: right; }
+
+#scienceinfoimage {
+  margin-top: 3%;
+  margin-left: 10%;
+  float: left; }
+
+.strategy {
+  width: 45%;
+  float: right; }
+
+#strategyimage {
+  float: left;
+  width: 40%; }
+  #strategyimage img {
+    width: 100%;
+    height: 50%;
+    padding-left: 40px;
+    margin-top: 10px; }
+
+.uxdesign {
+  width: 45%;
+  float: left; }
+
+#uxdesignimage {
+  float: right; }
+  #uxdesignimage img {
+    margin-top: 30px;
+    width: 100%; }
+
+.code {
+  width: 60%;
+  float: right; }
+
+#codeimage {
+  float: left;
+  width: 40%; }
+  #codeimage img {
+    width: 80%;
+    height: 50%;
+    padding: 10px;
+    margin-top: -20px; }
+
+.process {
+  width: 60%;
+  float: left; }
+
+#processimage {
+  float: right; }
+  #processimage img {
+    margin-top: 30px;
+    width: 100%; }
+
+.canhelp {
+  height: 100%; }
+  .canhelp h1, .canhelp p {
+    text-align: center;
+    line-height: 1.2em; }
+  .canhelp h1 {
+    font-size: 2.2em; }
+  .canhelp p {
+    font-size: 1.5em; }
+
+#emailme {
+  text-decoration: none;
+  color: #3F4747; }
+
+#emailme:hover {
+  color: #FBB03B; }
+
+.getintouchbutton {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 30px 30px;
+  width: 200px;
+  margin: 0 auto 50px; }
+
+.getintouchbutton:hover {
+  background-color: #2B9E9B; }
+
+.viewResumeButton {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 auto 50px; }
+
+.viewResumeButton:hover {
+  background-color: #2B9E9B; }
+
+.thesis h2 {
+  padding-top: 30px; }
+.thesis h3 {
+  padding-top: 10px; }
+.thesis p {
+  padding: 20px; }
+.thesis span {
+  font-style: italic; }
+
+#subtitle {
+  font-size: 0.5em;
+  text-align: center; }
+
+#cGMP {
+  margin-top: 30px; }
+
+img {
+  display: block;
+  height: 60%;
+  width: 60%;
+  margin: 0 auto; }
+
+.readThesis {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 200px;
+  padding: 15px 20px;
+  margin: 20px auto; }
+
+.readThesis:hover {
+  background-color: #2B9E9B; }
+
+.casestudysection {
+  width: 80%;
+  margin: 50px auto; }
+  .casestudysection h1, .casestudysection h2 {
+    padding-top: 40px; }
+  .casestudysection p, .casestudysection ul {
+    padding-top: 20px; }
+  .casestudysection span {
+    font-weight: 700; }
+  .casestudysection ul {
+    display: block;
+    margin-left: 30px; }
+  .casestudysection img {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin: 20px auto 0; }
+
+.rolesectioncontainer {
+  float: left;
+  width: 50%;
+  height: 320px;
+  margin-bottom: 10px;
+  text-align: center; }
+  .rolesectioncontainer ul {
+    margin-left: 0px; }
+
+.pulsebandCSsection {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  background-color: #3083FC; }
+  .pulsebandCSsection h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 40px; }
+  .pulsebandCSsection img {
+    display: block;
+    margin: 0 auto; }
+
+#pulsebandTitle {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 3.5em;
+  text-align: center; }
+
+.PBcompetitiveanalysis img {
+  height: 80%;
+  width: 80%; }
+
+.PBpersonas img {
+  height: 45%;
+  width: 45%;
+  padding-left: 15px;
+  display: inline-block; }
+
+.PBplanning img {
+  height: 45%;
+  width: 45%;
+  padding-top: 20px;
+  padding-left: 15px;
+  display: inline-block; }
+
+.PBuserflow img {
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 15px;
+  display: block; }
+
+.PBwireframes img {
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 15px;
+  display: block; }
+
+.PBmockups img {
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 15px;
+  display: block; }
+
+.seePrototype {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 200px;
+  padding: 15px 20px;
+  margin: 20px auto; }
+
+.seePrototype:hover {
+  background-color: #2B9E9B; }
+
+.nutritionSearchCSsection {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  background-color: #DB4E66; }
+  .nutritionSearchCSsection h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 40px; }
+
+.dev_rolesectioncontainer {
+  float: left;
+  width: 50%;
+  height: 230px;
+  margin-bottom: 10px;
+  text-align: center; }
+  .dev_rolesectioncontainer ul {
+    margin-left: 0px; }
+
+#nutritionSearchTitle {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.nutritionSearchlink {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 200px;
+  padding: 15px 20px;
+  margin: 20px auto; }
+
+.nutritionSearchlink:hover {
+  background-color: #2B9E9B; }
+
+.nutritionsearch_wireframes img {
+  height: 60%;
+  width: 60%;
+  padding-top: 20px;
+  padding-left: 15px;
+  display: block; }
+
+.nutritionsearch_UIkit img {
+  height: 100%;
+  width: 100%; }
+
+.playlistGeneratorCSsection {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  background-color: #F39C12; }
+  .playlistGeneratorCSsection h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 40px; }
+
+#playlistGeneratorTitle {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.playlistgenerator_wireframes img {
+  height: 60%;
+  width: 60%;
+  padding-top: 20px;
+  padding-left: 15px;
+  display: block; }
+
+.playlistgenerator_UIkit img {
+  height: 100%;
+  width: 100%; }
+
+.playlistgeneratorlink {
+  display: block;
+  border-radius: 15px;
+  color: #f2f2f2;
+  background-color: #FBB03B;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 200px;
+  padding: 15px 20px;
+  margin: 20px auto; }
+
+.playlistgeneratorlink:hover {
+  background-color: #2B9E9B; }
+
+@media screen and (max-width: 1035px) {
+  #pulsebandimage img {
+    height: 80%;
+    width: 80%; }
+
+  #nutritionSearchImage img {
+    height: 80%;
+    width: 80%; }
+
+  #playlistimage img {
+    height: 80%;
+    width: 80%; } }
+@media screen and (max-width: 890px) {
+  .fixednav {
+    padding: 0 120px; } }
+@media screen and (max-width: 864px) {
+  .learnMore {
+    padding: 50px 50px; }
+
+  a.learnMore {
+    font-size: 2em; } }
+@media screen and (max-width: 673px) {
+  #owllogo {
+    display: none; }
+
+  .menu li {
+    padding-left: 0;
+    padding-right: 15px; }
+  .menu a {
+    font-size: 0.8em; }
+
+  #name {
+    font-size: 2.5em; }
+
+  #headerimage img {
+    height: 100%;
+    width: 100%; }
+
+  #pulsebandimage img {
+    height: 100%;
+    width: 100%; }
+
+  #nutritionSearchImage img {
+    height: 100%;
+    width: 100%; }
+
+  #playlistimage img {
+    height: 100%;
+    width: 100%; }
+
+  .learnMore {
+    padding: 50px 40px; }
+
+  a.learnMore {
+    font-size: 1.5em; } }
+@media screen and (max-width: 550px) {
+  header {
+    width: 90%; }
+
+  .fixednav {
+    padding: 0 70px; }
+
+  #copyright {
+    display: none; } }
+@media screen and (max-width: 410px) {
+  .menu a {
+    font-size: 0.5em; }
+
+  .fixednav {
+    display: none; } }
+@media screen and (max-width: 385px) {
+  .learnMore {
+    padding: 20px 20px; }
+
+  a.learnMore {
+    font-size: 1em; } }
+@media screen and (max-width: 1110px) {
+  .aboutsection {
+    width: 95%;
+    height: 300px;
+    margin: 0 auto; } }
+@media screen and (max-width: 915px) {
+  .aboutsection {
+    height: 100%;
+    text-align: center;
+    margin-top: 30px; }
+
+  .portrait {
+    margin: 0 auto; }
+
+  #portrait {
+    margin: 0 auto;
+    float: none;
+    height: 30%;
+    width: 30%; }
+
+  .maininfo {
+    float: none;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    margin-top: 30px; }
+
+  .scienceinfo {
+    float: none;
+    width: 100%;
+    height: 100%; }
+
+  #scienceinfoimage {
+    float: none;
+    width: 100%;
+    height: 100%;
+    margin: 0; }
+
+  .strategy {
+    float: none;
+    width: 100%; }
+
+  #strategyimage {
+    float: none;
+    width: 100%; }
+    #strategyimage img {
+      padding-left: 0px; }
+
+  .uxdesign {
+    float: none;
+    width: 100%; }
+
+  #uxdesignimage {
+    float: none;
+    width: 100%; }
+
+  .code {
+    float: none;
+    width: 100%; }
+
+  #codeimage {
+    float: none;
+    width: 100%; }
+
+  .process {
+    float: none;
+    width: 100%; }
+
+  #processimage {
+    float: none;
+    width: 100%; } }
+@media screen and (max-width: 640px) {
+  #portrait {
+    height: 50%;
+    width: 50%; } }
+@media screen and (max-width: 590px) {
+  .maininfo p {
+    font-size: 1.2em;
+    line-height: 1.2em; }
+
+  #uxdesignimage img {
+    height: 80%;
+    width: 80%; } }
+@media screen and (max-width: 700px) {
+  .PBcompetitiveanalysis img {
+    height: 100%;
+    width: 100%; }
+
+  .PBpersonas img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-left: 0; }
+
+  .PBplanning img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-left: 0; }
+
+  .PBuserflow img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-left: 0; }
+
+  .PBwireframes img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-left: 0; }
+
+  .PBmockups img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-left: 0; } }
+@media screen and (max-width: 490px) {
+  .rolesectioncontainer {
+    height: 420px; }
+
+  #pulsebandTitle {
+    font-size: 2.5em; } }
+@media screen and (max-width: 1090px) {
+  #nutritionSearchTitle {
+    font-size: 2.5em; } }
+@media screen and (max-width: 700px) {
+  .nutritionsearch_wireframes img {
+    height: 100%;
+    width: 100%; } }
+@media screen and (max-width: 430px) {
+  .dev_rolesectioncontainer {
+    height: 250px; } }
+@media screen and (max-width: 1090px) {
+  #playlistGeneratorTitle {
+    font-size: 2.5em; } }
+@media screen and (max-width: 700px) {
+  .playlistgenerator_wireframes img {
+    height: 100%;
+    width: 100%; } }
+@media screen and (max-width: 430px) {
+  .dev_rolesectioncontainer {
+    height: 250px; }
+
+  .casestudysection ul {
+    margin-left: 0px; } }
+
+/*# sourceMappingURL=main.css.map */
