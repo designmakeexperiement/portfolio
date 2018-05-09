@@ -28,19 +28,10 @@ var nameAttribute = ["scientists", "designers", "learners"];
 var nameAttribute2 = ["code", "design", "discover", "research"];
 var nameCounter = 0;
 var nameCounter2 = 0;
-// var letterCounter = 0;
 
 function typingAnimation(word, num) {
   return (word.substring(0, num));
 }
-
-// function typingTimer() {
-//   if (nameAttribute[nameCounter].length >= letterCounter) {
-//     letterCounter += 1
-//   }
-// // console.log(letterCounter);
-//   return letterCounter;
-// }
 
 function changeName() {
   var totalLetters = nameAttribute[nameCounter].length + nameAttribute2[nameCounter2].length;
@@ -54,14 +45,8 @@ function changeName() {
         typingTimer(i);
       }
     }, 100);
-  })(totalLetters + 2)
-  // for (i = 0; i  <= totalLetters; i++) (function(t) {
-  //   window.setTimeout(function() {
-  // console.log(i);
-  //     var nameElement = document.getElementById("name");
-  //     nameElement.innerHTML = "We are " + typingAnimation(nameAttribute[nameCounter], i) + " who " + nameAttribute2[nameCounter2];
-  //   }, t * 200)
-  // })
+  })(totalLetters + 10)
+
   if (nameCounter >= (nameAttribute.length - 1)) {
     nameCounter = 0;
   } else {
@@ -72,14 +57,7 @@ function changeName() {
   } else {
     nameCounter2 += 1;
   }
-  console.log(nameAttribute2[nameCounter2])
-
 }
 
-// function typingSpeed() {
-//   window.setInterval(typingTimer, 200)
-// }
-
 window.setInterval(changeName, 5000);
-// window.setTimeout(typingSpeed, 3000);
 
